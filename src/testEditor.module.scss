@@ -1,0 +1,32 @@
+
+.display:hover {
+    color: #1890ff;;
+}
+
+.viewTable {
+    display: table;
+    width: 100%;
+
+    .viewRow {
+        display: table-row;
+        width: 100%;
+        .viewCell {
+            display: table-cell;
+            width: 100px;
+        }
+        .viewCell2 {
+            display: table-cell;
+            width: calc(100% - 100px);
+        }
+    }
+}
+
+.textEditor {
+    button {
+        background: #f0f2f5;
+        border-color: rgb(217, 217, 217);;
+        &:disabled {
+            background: #f0f2f5;
+        }
+    }
+}
