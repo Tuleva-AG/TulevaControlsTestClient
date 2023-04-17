@@ -1,51 +1,44 @@
 {
-  "name": "tuleva-controls-test-client",
-  "version": "0.1.0",
+  "name": "my-vue-app",
   "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
+    "@ant-design/icons": "^5.0.1",
     "@testing-library/react": "^13.4.0",
+<<<<<<< HEAD
+    "@types/jest": "^29.2.3",
+    "antd": "^5.1.2",
+=======
     "@testing-library/user-event": "^13.5.0",
     "@tuleva-ag/tuleva-controls-test": "0.0.39",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.3",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.9",
+>>>>>>> 8a9605854910613f246c0335b516f32d732143cc
     "csstype": "^3.1.1",
     "js-tokens": "^4.0.0",
     "loose-envify": "^1.4.0",
     "moment": "^2.29.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-i18next": "^12.0.0",
-    "react-scripts": "5.0.1",
-    "tslib": "^2.4.1",
-    "typescript": "^4.8.4",
-    "web-vitals": "^2.1.4",
-    "antd": "4.24.3"
+    "react": "18.2.0",
+    "react-tracked": "^1.7.10",
+    "tslib": "^2.4.1"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "jest": "^29.3.1",
+    "jest-environment-jsdom": "^29.3.1",
+    "node-sass": "^8.0.0",
+    "sass": "^1.62.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
   }
 }
