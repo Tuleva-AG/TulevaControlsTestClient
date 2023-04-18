@@ -100,38 +100,10 @@ function TestPage() {
     item: ITestItem
   ): JSX.Element => {
     return (
-<<<<<<< HEAD
       <>
         <div>{item.subject}</div>
         <div>{item.description}</div>
       </>
-=======
-        <div className="Page">
-
-
-            <HoursPage
-                dataSource={Utils.sortItems(itemsState, sortState, sortDescendingState)}
-                loading={false}
-                onAddNew={addNew}
-                onDelete={(id) => onDelete(id)}
-                onExit={() => (item: ITestItem) => onExit(item)}
-                onSave={(item, id) => onSave(item as ITestItem, id)}
-                onRenderView={(item) => renderViewer(item as ITestItem)}
-                onRenderEdit={(item) => renderEditor(item as ITestItem)}
-                onRenderListHeader={() => renderListHeader()}
-                onRenderFilter={() => renderFilter()}
-                createRights={false}
-                deleteRights={true}
-                editRights={true}
-                listRights={true}
-                caption={"Tests"}
-                helpTopic='test'
-                showAsModal={true}
-                hideCopyButton={true}
-            ></HoursPage>
-
-        </div>
->>>>>>> 8a9605854910613f246c0335b516f32d732143cc
     );
   };
 
@@ -205,10 +177,10 @@ function TestPage() {
         helpTopic="news"
         showAsModal={true}
         hideCopyButton={true}
-        // onRenderEditorFooter={(
-        //   item: IBaseEntity,
-        //   closeEditor: (e: any) => void
-        // ) => <Button onClick={closeEditor}>OK</Button>}
+        onRenderEditorFooter={(
+          item: IBaseEntity,
+          closeEditor: (e: any) => void
+        ) => <Button onClick={closeEditor}>OK</Button>}
       ></TulevaPage>
     </div>
   );

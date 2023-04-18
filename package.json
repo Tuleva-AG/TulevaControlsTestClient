@@ -11,17 +11,10 @@
   "dependencies": {
     "@ant-design/icons": "^5.0.1",
     "@testing-library/react": "^13.4.0",
-<<<<<<< HEAD
     "@types/jest": "^29.2.3",
     "antd": "^5.1.2",
-=======
-    "@testing-library/user-event": "^13.5.0",
-    "@tuleva-ag/tuleva-controls-test": "0.0.39",
-    "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.3",
-    "@types/react": "^18.0.25",
-    "@types/react-dom": "^18.0.9",
->>>>>>> 8a9605854910613f246c0335b516f32d732143cc
+
+    
     "csstype": "^3.1.1",
     "js-tokens": "^4.0.0",
     "loose-envify": "^1.4.0",
