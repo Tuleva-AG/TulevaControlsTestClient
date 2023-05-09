@@ -169,10 +169,6 @@ function TestPage() {
         onRenderEdit={(item) => renderEditor(item as ITestItem)}
         onRenderListHeader={() => renderListHeader()}
         onRenderFilter={() => renderFilter()}
-        // createRights={Rights.News.Create}
-        // deleteRights={Rights.News.Delete}
-        // editRights={Rights.News.Edit}
-        // listRights={Rights.News.List}
         caption={"Tests"}
         helpTopic="news"
         showAsModal={true}
